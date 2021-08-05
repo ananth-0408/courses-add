@@ -1,0 +1,184 @@
+<html>
+    <head>
+        <title>
+            Webign | Courses
+        </title>
+    <script src="https://kit.fontawesome.com/f2e8993635.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./gotta Organize.css">
+    </head>
+    <body>
+        <!-- add course button-->
+        <button id="addBtn" data-bs-toggle="modal" data-bs-target="#exampleModal"> <i class="fas fa-plus"></i> </button>
+        <!-- Modal for sign up-->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add course</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <span> Enter the preview details of your course </span> <br> <br>
+                    <div class="label1"><label for="input1" class="imageLabel">Image         </label>
+				    <input type="url" id="input1" placeholder="  Paste your image url here" required> <br></div>
+                    <div class="label2"> <label for="input2" class="titleLabel">Title </label>    
+                    <input type="text" id="input2" placeholder="  Enter the title of your course here" required><br></div>
+                    <div class="label3"><label for="input3" class="descriptionLabel">Description</label>
+                    <input type="text" id="input3" placeholder="  Enter the description of your course here" required></div>
+					<div class="label4"><label for="input4" class="priceLabel">Price($)</label>
+                    <input type="number" id="input4" placeholder="  Enter the price of your course here" required></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-success" data-bs-dismiss="modal" style="background: #54ff87;"> Add! </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--spinner-->
+        <div class="spinnnnnn" style="position: fixed; width: 100%; height: 100%; left: 0; top: 0; display: flex; justify-content: center; align-items: center; background: white;">
+            <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+<div class="body">
+        <navbar><h2> Courses </h2>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h4 id="offcanvasRightLabel">Menu</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+              <ul id="nav-list" style="z-index: 9999999;"> 
+              	<li class="navLinks" style="color: black;"><a href="#"> Home </a></li> 
+              	<li class="navLinks" style="color: black;"> About </li> 
+              	<li class="navLinks" style="color: black;"> <a href="../Courses/gotta Organize.html"> Courses </a></li> 
+              	<li class="navLinks" style="color: black;"> Help </li>
+              </ul> 
+        
+  </div>
+</div>
+              <div class="burger" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <div class="line1"></div>
+              <div class="line2"></div> 
+              <div class="line3"></div>
+              </div>
+        </navbar>
+
+        <div class="search">
+            <input type="text" id="yeye" placeholder="  Search for courses"><img class="padaMaree" src="./Images/coursera-search.jpg">
+        </div>
+		<br>
+		<div class="myErr"></div>
+        <br>
+        <br>
+        <br>
+		<div class="page">
+        <h2 id="jsCourse" style="margin-left: 20px;">JavaScript </h2>
+        <hr>
+        <!-- FLEXOO -->
+        <!-- FLEXOO -->
+        <!-- FLEXOO -->
+        <!-- FLEXOO -->
+  
+            <!-- FLOATIE 1 -->
+		<div class="flexoo" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+<div class="showw">
+            <div class="floatie" style="margin-left: 20px;">
+                <div class="flotieContent">
+                    <img class="jsImg" src="./Images/js-tut.jpg" alt="JavaScript">
+                    <br>
+                    <hr>
+                    <h4 class="h4Js"> JavaScript with Jade  </h4>
+                    <div class="jsJade"> <br> <br>
+                        <p class="jsP "> JavaScript is the most important companion you will need to start your web-developing career. I am Jade, and throughout this course, I will help you learn all you need to know in order to become a professional web developer! </p>
+                        <br><br><br><br>
+                        <hr>
+                        <footer class="footerJs"> $19.99 <button class="btn btn-primary" style="margin-left: 170px;"> Enroll </button></footer>
+                    </div>
+                </div>
+            </div> 
+</div>
+            <!-- FLOATIE 2 -->
+            <div class="floatie" style="margin-left: 20px;">
+                <div class="flotieContent">
+                    <img class="jsImg" src="./Images/jss.jpg" alt="JavaScript">
+                    <br>
+                    <hr>
+                    <h4 class="h4Js1"> Simple Beginner Projects with JS! </h4>
+                    <div class="jsJade"> <br> <br>
+                        <p class="jsP "> Here are few very simple yet important projects that every young person who aspires to learn JavaScript should know! </p>
+                        <br><br><br><br><br><br><br>
+                        <hr>
+                        <footer class="footerJs"> $9.99 <button class="btn btn-primary" style="margin-left: 170px;"> Enroll </button></footer>
+                    </div>
+                </div>
+            </div> 
+            <!-- FLOATIE 3 -->
+            <div class="floatie" style="margin-left: 20px;">
+                <div class="flotieContent">
+                    <img class="jsImg" src="./Images/java God damn script.png" alt="JavaScript">
+                    <br><hr>
+                    <h4 class="h4Js2">JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour </h4>
+                    <div class="jsJade"> 
+                        <br><br>
+                        <p class="jsP "> JavaScript is the most important companion you will need to start your web-developing career. I am Mosh, and throughout this course, I will help you learn all you need to know in order to become a professional web developer! </p>
+                        <br><br><hr>
+                        <footer class="footerJs"> $23.99 <button class="btn btn-primary" style="margin-left: 170px;"> Enroll </button></footer>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <!-- FLOATIE 4 -->
+            <div class="floatie" style="margin-left: 20px;">
+                <div class="flotieContent">
+                    <img class="jsImg" src="./Images/0_js.jpg" alt="JavaScript">
+                    <br><hr>
+                    <h4 class="h4Js3"> Lorem Ipsum Dolor Set Amor! </h4>
+                    <div class="jsJade"> <br> <br>
+                        <p class="jsP "> I'm baby kogi twee salvia subway tile scenester cred vape. Cold-pressed disrupt prism, seitan roof party leggings jianbing poutine schlitz vinyl copper mug. Cold-pressed cred brunch, shabby chic craft beer listicle glossier snackwave hoodie hammock hashtag activated charcoal williamsburg slow-carb. Williamsburg kale chips pork belly, shabby chic vaporware bitters tacos edison bulb next level. </p>
+                        <br><hr>
+                        <footer class="footerJs"> $9.99 <button class="btn btn-primary" style="margin-left: 170px;"> Enroll </button></footer>
+                    </div>
+                </div>
+            </div> 
+            <!-- FLOATIE 5 -->
+            <div class="floatie" style="margin-left: 20px;">
+                <div class="flotieContent">
+                    <img class="jsImg" src="./Images/myJs.jpg" alt="JavaScript">
+                    <br><hr>
+                    <h4 class="h4Js4"> Lorem Ipsum Dolor Set Amor! </h4>
+                    <div class="jsJade"> <br> <br>
+                        <p class="jsP "> I'm baby kogi twee salvia subway tile scenester cred vape. Cold-pressed disrupt prism, seitan roof party leggings jianbing poutine schlitz vinyl copper mug. Cold-pressed cred brunch, shabby chic craft beer listicle glossier snackwave hoodie hammock hashtag activated charcoal williamsburg slow-carb. Williamsburg kale chips pork belly, shabby chic vaporware bitters tacos edison bulb next level. </p>
+                        <br><hr>
+                        <footer class="footerJs"> $9.99 <button class="btn btn-primary" style="margin-left: 170px;"> Enroll </button></footer>
+                    </div>
+                </div>
+            </div>
+            <!-- FLOATIE 6 -->
+            <div class="floatie" style="margin-left: 20px;">
+                <div class="flotieContent">
+                    <img class="jsImg" src="./Images/lastJs.png" alt="JavaScript">
+                    <br><hr>
+                    <h4 class="h4Js5"> Lorem Ipsum Dolor Set Amor! </h4>
+                    <div class="jsJade"><br><br>
+                        <p class="jsP "> I'm baby kogi twee salvia subway tile scenester cred vape. Cold-pressed disrupt prism, seitan roof party leggings jianbing poutine schlitz vinyl copper mug. Cold-pressed cred brunch, shabby chic craft beer listicle glossier snackwave hoodie hammock hashtag activated charcoal williamsburg slow-carb. Williamsburg kale chips pork belly, shabby chic vaporware bitters tacos edison bulb next level. </p>
+                        <br><hr>
+                        <footer class="footerJs"> $9.99 <button class="btn btn-primary" style="margin-left: 170px;"> Enroll </button></footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF FLEXOOO -->
+</div>
+
+<footer id="footer"> 
+	
+</footer>
+</div>
+    </body>
+    <script src="./gotta Organize.js" defer></script>
+</html>
